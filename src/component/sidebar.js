@@ -1,14 +1,9 @@
-/* eslint-disable eqeqeq */
-/* eslint-disable no-unused-vars */
-/* eslint-disable no-const-assign */
-
 /* eslint-disable jsx-a11y/anchor-is-valid */
+
 import React from 'react'
-import { useState } from 'react'
 
 
 export default function Sidebar() {
-
 
 
     return (
@@ -96,11 +91,11 @@ export default function Sidebar() {
                         <form className="pb-1 space-y-4">
                             <label className="block">
                                 <span className="block mb-1 text-xs font-medium text-gray-700">Your Email</span>
-                                <input className="form-input focus:outline-none" type="email" placeholder="Ex. james@bond.com" inputmode="email" required />
+                                <input className="form-input focus:outline-none border-b-4 border-sky-500" type="email" placeholder="@gmail.com" inputmode="email" required />
                             </label>
                             <label className="block">
                                 <span className="block mb-1 text-xs font-medium text-gray-700">Your Password</span>
-                                <input className="form-input focus:outline-none" type="password" placeholder="••••••••" required />
+                                <input className="form-input focus:outline-none border-b-4 border-sky-500" minLength={6} type="password" placeholder="••••" required />
                             </label>
                             <div className="flex items-center justify-between">
                                 <label className="flex items-center">
@@ -128,7 +123,6 @@ export default function Sidebar() {
                         />
                     </div>
                 </section>
-
             </div>
         </div>
     )
