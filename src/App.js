@@ -4,7 +4,7 @@ import Sidebar from './component/sidebar'
 
 export default function App() {
   return (
-    <div>
+    <div className=' font-serif'>
       <Navbar />
       <Sidebar />
     </div>
