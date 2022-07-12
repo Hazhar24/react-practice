@@ -1,8 +1,14 @@
+/* eslint-disable no-const-assign */
+/* eslint-disable no-unused-vars */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
+import { useState } from 'react'
 
 
 export default function Sidebar() {
+
+
+
     return (
         <div className='flex'>
             <div className="flex flex-col w-36 sm:w-36 text-xs md:text-lg md:w-64 lg:w-64 px-2 py-8 bg-white border-r dark:bg-gray-800 dark:border-gray-600">
@@ -65,7 +71,7 @@ export default function Sidebar() {
                 </div>
             </div>
             <div>
-                <section className="grid grid-cols-1 gap-0 lg:grid-cols-12 pt-20">
+                <section className="grid grid-cols-1 gap-0 lg:grid-cols-12 lg:pt-28 mx-auto">
                     <div className="w-2/3 col-span-1 p-4 mx-auto mt-6 lg:col-span-6 md:w-2/4">
                         <a href="/" title="Kutty Home Page" className="flex items-center justify-start">
                             <svg className="w-auto h-6" width="86" height="24" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 335 93">
